@@ -1,0 +1,11 @@
+{
+    body        => \'index.tmpl',
+    highlight_css_before => 'BEFORE_FOOS',
+    highlight_css_after => 'AFTER_FOOS',
+        highlight_css => {
+            foocss => '* { margin: 0; padding: 0; }',
+            barcss     => sub { return '* { margin: 0; padding: 0; }' },
+            beercss    => \ 'index.tmpl',
+        },
+        plugins     => [  qw/Syntax::Highlight::CSS/ ],
+}

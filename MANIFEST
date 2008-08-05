@@ -1,0 +1,12 @@
+Build.PL
+Changes
+MANIFEST
+README
+lib/App/ZofCMS/Plugin/Syntax/Highlight/CSS.pm
+t/01-plugin.t
+examples/index.tmpl
+t/00-load.t
+t/pod-coverage.t
+t/pod.t
+Makefile.PL
+META.yml

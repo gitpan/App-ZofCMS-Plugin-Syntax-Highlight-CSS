@@ -1,0 +1,19 @@
+---
+name: App-ZofCMS-Plugin-Syntax-Highlight-CSS
+version: 0.0101
+author:
+  - 'Zoffix Znet <zoffix@cpan.org>'
+abstract: provide syntax highlighted CSS code snippets on your site
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+build_requires:
+  Test::More: 0
+provides:
+  App::ZofCMS::Plugin::Syntax::Highlight::CSS:
+    file: lib/App/ZofCMS/Plugin/Syntax/Highlight/CSS.pm
+    version: 0.0101
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
