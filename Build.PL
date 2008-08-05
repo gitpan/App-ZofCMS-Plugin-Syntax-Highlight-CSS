@@ -10,6 +10,9 @@ my $builder = Module::Build->new(
     build_requires => {
         'Test::More' => 0,
     },
+    requires => {
+        'Syntax::Highlight::CSS' => 0.0101,
+    },
     add_to_cleanup      => [ 'App-ZofCMS-Plugin-Syntax-Highlight-CSS-*' ],
     create_makefile_pl => 'traditional',
 );

@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::Syntax::Highlight::CSS;
 use warnings;
 use strict;
 
-our $VERSION = '0.0101';
+our $VERSION = '0.0102';
 
 require File::Spec;
 use Syntax::Highlight::CSS;
