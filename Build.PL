@@ -12,7 +12,9 @@ my $builder = Module::Build->new(
     },
     requires => {
         'Syntax::Highlight::CSS' => 0.0101,
+        'perl' => '5.006',
     },
+    configure_requires => { 'Module::Build' => 0 },
     add_to_cleanup      => [ 'App-ZofCMS-Plugin-Syntax-Highlight-CSS-*' ],
     create_makefile_pl => 'traditional',
 );

@@ -1,8 +1,11 @@
 Revision history for App-ZofCMS-Plugin-Syntax-Highlight-CSS
 
-0.0102  August 4, 2008
-        Fixed mixing prereqs in Build.PL
+0.0103  2013-11-09
+        - Minor fixes to comply with specs and Kwalitee game
 
-0.0101  August 4, 2008
-        First version, released on an unsuspecting world.
+0.0102  2008-08-04
+        - Fixed mixing prereqs in Build.PL
+
+0.0101  2008-08-04
+        - First version, released on an unsuspecting world.
 

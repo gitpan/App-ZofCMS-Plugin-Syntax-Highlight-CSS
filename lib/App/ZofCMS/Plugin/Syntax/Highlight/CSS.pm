@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::Syntax::Highlight::CSS;
 use warnings;
 use strict;
 
-our $VERSION = '0.0102';
+our $VERSION = '0.0103';
 
 require File::Spec;
 use Syntax::Highlight::CSS;
@@ -65,6 +65,8 @@ sub _load_code_from_file {
 
 1;
 __END__
+
+=encoding utf8
 
 =head1 NAME
 
